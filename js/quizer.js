@@ -341,27 +341,404 @@ function load(){
 }
 
 // EN songs
+const en_1990_f_icon = [
+	'many',
+	'few'
+];
 
+const EN_1990_F_PACK_1 = 1;
+const EN_1990_F_PACK_2 = 2;
+
+let en_1990_f = [
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Ardis',
+			song : "Ain't nobody's business",
+			state: ' по Ардис'
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : "Sinead O'Connor",
+			song : "Nothing Compares 2 U"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Suzanne Vega',
+			song : "Tom's Diner"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Toni Braxton',
+			song : "Un-Break My Heart"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Shania Twain',
+			song : "You're Still The One",
+			year : 1998
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Jennifer Paige',
+			song : "Crush"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Shania Twain',
+			song : "Man! I Feel Like A Woman!",
+			year : 1999
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Sheryl Crow',
+			song : "All I Wanna Do"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Sheryl Crow',
+			song : "If It Makes You Happy"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Janet Jackson',
+			song : "That's The Way Love Goes"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Christina Aguilera',
+			song : "Genie In A Bottle"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Tasmin Archer',
+			song : "Sleeping Satellite"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Lara Fabian',
+			song : "I Will Love Again"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'LeAnn Rimes',
+			song : "Can't Fight The Moonlight"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Vanessa Paradis',
+			song : "Joe le taxi"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Joan Osbourne',
+			song : "One Of Us"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Sandy Lee',
+			song : "Paradise"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Toni Braxton',
+			song : "I Dont Want To"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Tori Amos',
+			song : "Cornflake Girl"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Whigfield',
+			song : "Saturday Night"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Maggie Reilly',
+			song : "Everytime We Touch"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Natalie Imbruglia',
+			song : "Torn"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Donna Lewis',
+			song : "I Love You Always Forever"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : "Desree",
+			song : "Life"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : "Desree",
+			song : "You Gotta Be"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Shivaree',
+			song : "Goodnight Moon"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Neneh Cherry',
+			song : "Woman"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Melanie C',
+			song : "I Turn To You"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Emilia',
+			song : "Big Big World"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Lauren Christy',
+			song : "The color of the night"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Meredith Brooks',
+			song : "Bitch"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Jennifer Lopez',
+			song : "If You Had My Love"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Jennifer Lopez',
+			song : "Waiting for Tonight"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Jennifer Lopez',
+			song : "No Me Ames"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Celine Dion',
+			song : "The Power of Love"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Celine Dion',
+			song : "Because You Loved Me"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Celine Dion',
+			song : "Here There & Everywhere"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Madonna',
+			song : "Erotica"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Madonna',
+			song : "Rain"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Madonna',
+			song : "Ray Of Light"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Whitney Houston',
+			song : "I'm Your Baby Tonight"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Whitney Houston',
+			song : "I Have Nothing"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Whitney Houston',
+			song : "All The Man That I Need"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Alanis Morissette',
+			song : "Ironic"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Alanis Morissette',
+			song : "Hand In My Pocket"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Alanis Morissette',
+			song : "Head Over Feet"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Mariah Carey',
+			song : "Hero"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Mariah Carey',
+			song : "Without You"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Bjork',
+			song : "Big Time Sensuality"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Bjork',
+			song : "Army of Me"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Bjork',
+			song : "Hyperballad"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Annie Lennox',
+			song : "Walking on Broken Glass"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Annie Lennox',
+			song : "No More I Love You's"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Geri Halliwell',
+			song : "Mi Chico Latino"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Geri Halliwell',
+			song : "Lift Me Up"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Geri Halliwell',
+			song : "Bag It Up"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Toni Braxton',
+			song : "Spanish Guitar"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Vanessa Paradis',
+			song : "Be My Baby"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Gala',
+			song : "Freed from desire"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Gala',
+			song : "Let a boy cry"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Gala',
+			song : "Come into my life"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Lene Marlin',
+			song : "Sitting Down Here"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Diana Ross',
+			song : "When You Tell Me That You Love Me"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Meredith Brooks',
+			song : "What Would Happen"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Kylie Minogue',
+			song : "Tears On My Pillow"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Kylie Minogue',
+			song : "Better the Devil You Know"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Kylie Minogue',
+			song : "Shocked"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Gina G',
+			song : "Ooh Aah (Just A Little Bit)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Gina G',
+			song : "I Belong to You"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Gina G',
+			song : "Fresh"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Mariah Carey',
+			song : "Fantasy (ft Dave Hall)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Meja',
+			song : "All 'Bout the Money (1998)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Shania Twain',
+			song : "That Don't Impress Me Much",
+			year : 1998
+		}
+];
+
+let en_1990_f_1 =	en_1990_f.filter(item => item.pack == 1);
+let en_1990_f_2 =	en_1990_f.filter(item => item.pack == 2);
 
 
 let music = [
 	{
-		arr: en_2000_m,
+		arr: en_1990_f,
 		lang: 'en',
-		year: '2000',
-		type: 'm',
+		year: '1990',
+		type: 'f',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
+					arr: en_1990_f_1,
+					name: 'EN 1990s Female: Many Songs',
 				},
 				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: en_1990_f_2,
+					name: 'EN 1990s Female: Few Songs',
 				}
 			]
 	}
@@ -688,14 +1065,14 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '2000';
-	artist_type = 'm';
+	year = '1990';
+	artist_type = 'f';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = en_1990_f_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
