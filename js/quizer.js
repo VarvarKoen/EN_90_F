@@ -719,6 +719,12 @@ let en_1990_f = [
 			group : 'Shania Twain',
 			song : "That Don't Impress Me Much",
 			year : 1998
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Aaliyah',
+			song : "Are You That Somebody?",
+			year : 1998
 		}
 ];
 
