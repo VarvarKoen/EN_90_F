@@ -482,7 +482,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Shivaree',
-			song : "Goodnight Moon"
+			song : "Goodnight Moon",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -725,6 +726,21 @@ let en_1990_f = [
 			group : 'Aaliyah',
 			song : "Are You That Somebody?",
 			year : 1998
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Pandora',
+			song : "Trust Me (1993)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Pandora',
+			song : "Why (1996)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Pandora',
+			song : "Come On and Do It (1993)"
 		}
 ];
 
