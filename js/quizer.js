@@ -422,7 +422,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'LeAnn Rimes',
-			song : "Can't Fight The Moonlight"
+			song : "Can't Fight The Moonlight (2000)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -741,6 +742,11 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Pandora',
 			song : "Come On and Do It (1993)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Ultra Naté',
+			song : "Free (1997)"
 		}
 ];
 
