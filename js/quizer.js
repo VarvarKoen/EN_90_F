@@ -417,7 +417,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Lara Fabian',
-			song : "I Will Love Again"
+			song : "I Will Love Again (2000)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -458,12 +459,12 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Maggie Reilly',
-			song : "Everytime We Touch"
+			song : "Everytime We Touch (1992)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Natalie Imbruglia',
-			song : "Torn"
+			song : "Torn (1997)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -664,7 +665,7 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Lene Marlin',
-			song : "Sitting Down Here"
+			song : "Sitting Down Here (1999)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -747,6 +748,26 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Ultra Naté',
 			song : "Free (1997)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Lara Fabian',
+			song : "Croire (1991)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Lara Fabian',
+			song : "Je t'aime (1997)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Natalie Imbruglia',
+			song : "Leave Me Alone (1997)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Natalie Imbruglia',
+			song : "Smoke (1998)"
 		}
 ];
 
