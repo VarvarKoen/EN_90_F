@@ -400,9 +400,9 @@ let en_1990_f = [
 			song : "If It Makes You Happy"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_1,
 			group : 'Janet Jackson',
-			song : "That's The Way Love Goes"
+			song : "That's The Way Love Goes (1993)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -768,6 +768,16 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Natalie Imbruglia',
 			song : "Smoke (1998)"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Janet Jackson',
+			song : "Together Again (1997)"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Janet Jackson',
+			song : "Escapade (1990)"
 		}
 ];
 
