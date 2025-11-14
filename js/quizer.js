@@ -449,12 +449,13 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Tori Amos',
-			song : "Cornflake Girl"
+			song : "Cornflake Girl (1994)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Whigfield',
-			song : "Saturday Night"
+			song : "Saturday Night",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -474,12 +475,12 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : "Desree",
-			song : "Life"
+			song : "Life (1998)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : "Desree",
-			song : "You Gotta Be"
+			song : "You Gotta Be (1994)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -783,6 +784,16 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Nina',
 			song : "The Reason Is You (1994)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Tori Amos',
+			song : "Crucify (1992)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Tori Amos',
+			song : "God (1994)"
 		}
 ];
 
