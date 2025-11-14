@@ -778,6 +778,11 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_1,
 			group : 'Janet Jackson',
 			song : "Escapade (1990)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Nina',
+			song : "The Reason Is You (1994)"
 		}
 ];
 
