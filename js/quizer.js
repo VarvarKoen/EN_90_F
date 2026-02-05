@@ -344,26 +344,28 @@ function load(){
 // EN songs
 const en_1990_f_icon = [
 	'many',
-	'few'
+	'few',
+	'pop'
 ];
 
 const EN_1990_F_PACK_1 = 1;
 const EN_1990_F_PACK_2 = 2;
+const EN_1990_F_PACK_3 = 3;
 
 let en_1990_f = [
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Ardis',
 			song : "Ain't nobody's business",
 			state: ' по Ардис'
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : "Sinead O'Connor",
 			song : "Nothing Compares 2 U"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Suzanne Vega',
 			song : "Tom's Diner"
 		},
@@ -379,7 +381,7 @@ let en_1990_f = [
 			year : 1998
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Jennifer Paige',
 			song : "Crush"
 		},
@@ -410,7 +412,7 @@ let en_1990_f = [
 			song : "Genie In A Bottle"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Tasmin Archer',
 			song : "Sleeping Satellite"
 		},
@@ -432,14 +434,15 @@ let en_1990_f = [
 			song : "Joe le taxi"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Joan Osbourne',
 			song : "One Of Us"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Sandy Lee',
-			song : "Paradise"
+			song : "Paradise (1989)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -458,7 +461,7 @@ let en_1990_f = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Maggie Reilly',
 			song : "Everytime We Touch (1992)"
 		},
@@ -468,7 +471,7 @@ let en_1990_f = [
 			song : "Torn (1997)"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Donna Lewis',
 			song : "I Love You Always Forever"
 		},
@@ -489,7 +492,7 @@ let en_1990_f = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Neneh Cherry',
 			song : "Woman"
 		},
@@ -499,17 +502,17 @@ let en_1990_f = [
 			song : "I Turn To You"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Emilia',
 			song : "Big Big World"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Lauren Christy',
 			song : "The color of the night"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Meredith Brooks',
 			song : "Bitch"
 		},
@@ -626,17 +629,18 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Geri Halliwell',
-			song : "Mi Chico Latino"
+			song : "Mi Chico Latino (1999)"
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Geri Halliwell',
-			song : "Lift Me Up"
+			song : "Lift Me Up (1999)"
 		},
 		{
 			pack : EN_1990_F_PACK_1,
-			group : 'Geri Halliwell',
-			song : "Bag It Up"
+			group : 'Geri Halliwell (2000)',
+			song : "Bag It Up",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -664,19 +668,20 @@ let en_1990_f = [
 			song : "Come into my life"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Lene Marlin',
 			song : "Sitting Down Here (1999)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Diana Ross',
-			song : "When You Tell Me That You Love Me"
+			song : "When You Tell Me That You Love Me (1991)"
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Meredith Brooks',
-			song : "What Would Happen"
+			song : "What Would Happen",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
@@ -714,7 +719,7 @@ let en_1990_f = [
 			song : "Fantasy (ft Dave Hall)"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Meja',
 			song : "All 'Bout the Money (1998)"
 		},
@@ -746,7 +751,7 @@ let en_1990_f = [
 			song : "Come On and Do It (1993)"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Ultra Naté',
 			song : "Free (1997)"
 		},
@@ -781,7 +786,7 @@ let en_1990_f = [
 			song : "Escapade (1990)"
 		},
 		{
-			pack : EN_1990_F_PACK_2,
+			pack : EN_1990_F_PACK_3,
 			group : 'Nina',
 			song : "The Reason Is You (1994)"
 		},
@@ -799,6 +804,7 @@ let en_1990_f = [
 
 let en_1990_f_1 =	en_1990_f.filter(item => item.pack == 1);
 let en_1990_f_2 =	en_1990_f.filter(item => item.pack == 2);
+let en_1990_f_3 =	en_1990_f.filter(item => item.pack == 3);
 
 
 let music = [
@@ -815,6 +821,10 @@ let music = [
 				{
 					arr: en_1990_f_2,
 					name: 'EN 1990s Female: Few Songs',
+				},
+				{
+					arr: en_1990_f_3,
+					name: 'EN 1990s Female: One Hit Wonders',
 				}
 			]
 	}
@@ -828,6 +838,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1166,6 +1177,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
