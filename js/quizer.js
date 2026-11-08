@@ -534,32 +534,34 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Celine Dion',
-			song : "The Power of Love"
+			song : "The Power of Love",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Celine Dion',
-			song : "Because You Loved Me"
+			song : "Because You Loved Me (1996)"
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Celine Dion',
-			song : "Here There & Everywhere"
+			song : "Here There & Everywhere (1998)"
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Madonna',
-			song : "Erotica"
+			song : "Erotica (1992)"
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Madonna',
-			song : "Rain"
+			song : "Rain",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Madonna',
-			song : "Ray Of Light"
+			song : "Ray Of Light (1998)"
 		},
 		{
 			pack : EN_1990_F_PACK_1,
@@ -799,6 +801,16 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Tori Amos',
 			song : "God (1994)"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Madonna',
+			song : "You'll See (1995)"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Celine Dion',
+			song : "All By Myself (1996)"
 		}
 ];
 
