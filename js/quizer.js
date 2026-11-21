@@ -811,6 +811,11 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_1,
 			group : 'Celine Dion',
 			song : "All By Myself (1996)"
+		},
+		{
+			pack : EN_1990_F_PACK_3,
+			group : 'Billie Myers',
+			song : "Kiss the Rain (1997)"
 		}
 ];
 
